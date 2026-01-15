@@ -1,0 +1,98 @@
+📌 Project Overview
+
+This project involves data cleaning, transformation, and analysis of the Zepto Inventory dataset using PostgreSQL (pgAdmin). The primary objective is to convert raw inventory data into a clean, structured format suitable for analysis. The project addresses data encoding issues, handles missing values, standardizes price data, and extracts meaningful insights using SQL queries.
+
+📂 Dataset Description
+
+Source: Kaggle (Zepto Inventory Dataset)
+
+Original Format: ZIP file
+
+Final Format: CSV (UTF-8 encoded)
+
+The dataset includes information related to:
+
+Product names
+
+Product categories
+
+Prices
+
+Stock availability
+
+Discounts and quantities
+
+⚙️ Tools & Technologies Used
+
+PostgreSQL
+
+pgAdmin 4
+
+Kaggle
+
+CSV (UTF-8 Encoding)
+
+SQL
+
+🔄 Project Workflow
+1️⃣ Data Download
+
+The dataset was downloaded from Kaggle in ZIP format and extracted to access the raw data files.
+
+2️⃣ Data Conversion
+
+The extracted data was converted into CSV format with UTF-8 encoding to ensure compatibility with PostgreSQL.
+
+3️⃣ Data Loading
+
+The CSV file was imported into PostgreSQL using pgAdmin before final table creation to allow schema flexibility.
+
+4️⃣ Table Creation
+
+A structured SQL table was created based on the dataset schema, with appropriate data types assigned to each column.
+
+5️⃣ Data Exploration
+
+Initial SQL queries were performed to:
+
+Understand the dataset structure
+
+Check total record count
+
+Identify NULL values
+
+Analyze price and quantity distributions
+
+6️⃣ Data Cleaning
+
+Records containing NULL values in critical columns were removed, and incomplete or inconsistent data entries were filtered out.
+
+7️⃣ Price Transformation
+
+All monetary values were standardized and converted into Indian Rupees (₹) to ensure accurate financial analysis.
+
+8️⃣ Data Analysis
+
+SQL queries were executed to analyze:
+
+Product availability
+
+Price distribution
+
+Category-wise inventory levels
+
+Stock trends and insights
+
+📊 Key Insights
+
+Identification of high-value products
+
+Categories with the highest inventory levels
+
+Price variation across different products
+
+A cleaned dataset ready for reporting and visualization
+
+✅ Conclusion
+
+This project demonstrates an end-to-end SQL-based data analysis workflow, from raw data extraction to final insights. It highlights practical skills in data preprocessing, PostgreSQL database management, and analytical SQL querying. The cleaned and structured dataset can be further utilized for dashboards, reporting, or advanced data analytics projects.
